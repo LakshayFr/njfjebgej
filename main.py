@@ -27,6 +27,8 @@ import uuid, asyncio
 from fake_useragent import UserAgent
 import json
 from bs4 import BeautifulSoup
+from keep_alive import keep_alive
+keep_alive()
 
 
 BOT_API_KEY = '7059781834:AAGRNXsuKCkmKgxTexr7h8rhOUjfzdPGh74'
